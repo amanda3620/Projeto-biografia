@@ -177,7 +177,7 @@ body {
 #caixa1 {
    width: 400px;
    height: 430px;
-   border: solid white;
+   border: solid black;
    text-align: left;
    margin-left: 300px;
    margin-top: 30px;
@@ -186,7 +186,7 @@ body {
 #caixa2 {
 	width: 400px;
     height: 370px;
-    border: solid #E3E3E3;
+    border: solid black;
     text-align: left;
     margin-left: 500px;
     margin-top: -404px;
