@@ -227,11 +227,57 @@ main form hr {
     color: #E3E3E3;
 }
 
-@media (min-width: 768px) {
-            .containerColunas {
-                flex-direction: row;
-                justify-content: space-around;
-            }
+@media (max-width: 768px) {
+    body {
+        font-size: 18px;
+    }
 
-            .coluna1, .coluna2 {
-                width: 45%;
+    #topo {
+        height: auto;
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #topo #logo {
+        width: 300px;
+        height: auto;
+        margin: 0;
+    }
+
+    #topo form {
+        margin: 20px 0;
+        width: 80%;
+        max-width: 400px;
+    }
+
+    #menu ul li a {
+        padding: 20px;
+    }
+
+    .containerColunas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .coluna1, .coluna2 {
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    #caixa1, #caixa2 {
+        margin: 20px 0;
+        width: 90%;
+    }
+
+    #rodape figure {
+        width: 60px;
+        height: 45px;
+        margin-left: 0;
+    }
+
+    #rodape p {
+        margin-left: 10px;
+        font-size: 24px;
+    }
+}
