@@ -269,9 +269,14 @@ main form hr {
         align-items: center;
     }
 
-    .coluna1, .coluna2 {
+    .coluna1{
         width: 90%;
         margin: 20px 0;
+    }
+
+    .coluna2{
+	width: 80%;
+	margin: 20px 0;
     }
 
     #caixa1, #caixa2 {
