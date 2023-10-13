@@ -269,15 +269,13 @@ main form hr {
         align-items: center;
     }
 
-    .coluna1{
-        width: 90%;
-        margin: 20px 0;
+    
+	coluna1, .coluna2 {
+        float: none; /* Remova o float para permitir que as colunas empilhem verticalmente */
+        width: 100%; /* Largura total para ocupar a largura do contêiner */
+        margin: 0 0 15px 0; /* Adicione margem inferior para espaçamento entre as colunas */
     }
-
-    .coluna2{
-	width: 80%;
-	margin: 20px 0;
-    }
+}
 
     #caixa1, #caixa2 {
         margin: 20px 0;
