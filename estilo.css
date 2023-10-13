@@ -63,13 +63,7 @@ body {
 }
 #menu ul li {
     display: inline;
-}
-#menu ul li a{
-    font-size: 14px;
-    color: #fff;
-    padding: 35px 50px 30px 50px;
-    font-weight: 800;
-    transition: 0.4s;
+
 }
 #menu ul li a:hover{
     color: #ac3e3e;
@@ -79,9 +73,18 @@ body {
     width: 10px;
     position: relative;
     top: 1px;
-    margin-right: 25px;
-    font-size: 25px;
+    margin-right: 10px;
+    font-size: 20px;
 }
+#menu ul li a {
+    font-size: 14px;
+    color: #fff;
+    padding: 20px 10px; /* Reduzindo o padding horizontal */
+    font-weight: 800;
+    transition: 0.4s;
+}
+
+
 .icone {
 	width: 30px;
 	position: relative;
@@ -251,9 +254,16 @@ main form hr {
         max-width: 400px;
     }
 
+	/* Adicione um novo bloco de estilo para dispositivos menores */
     #menu ul li a {
-        padding: 20px;
+        padding: 15px 10px; /* Ajuste de padding para dispositivos menores */
     }
+
+    #menu ul li i {
+        font-size: 18px; /* Ajuste de tamanho do ícone para dispositivos menores */
+    }
+}
+
 
     .containerColunas {
         flex-direction: column;
