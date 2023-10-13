@@ -254,16 +254,15 @@ main form hr {
         max-width: 400px;
     }
 
-	/* Adicione um novo bloco de estilo para dispositivos menores */
+    /* Ajuste de padding para dispositivos menores */
     #menu ul li a {
-        padding: 15px 10px; /* Ajuste de padding para dispositivos menores */
+        padding: 15px 10px;
     }
 
+    /* Ajuste de tamanho do ícone para dispositivos menores */
     #menu ul li i {
-        font-size: 18px; /* Ajuste de tamanho do ícone para dispositivos menores */
+        font-size: 18px;
     }
-}
-
 
     .containerColunas {
         flex-direction: column;
