@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    border: 1px solid black;
+   /* border: 1px solid black;*/
     
 
 }
@@ -63,7 +63,13 @@ body {
 }
 #menu ul li {
     display: inline;
-
+}
+#menu ul li a{
+    font-size: 14px;
+    color: #fff;
+    padding: 35px 50px 30px 50px;
+    font-weight: 800;
+    transition: 0.4s;
 }
 #menu ul li a:hover{
     color: #ac3e3e;
@@ -73,18 +79,9 @@ body {
     width: 10px;
     position: relative;
     top: 1px;
-    margin-right: 10px;
-    font-size: 20px;
+    margin-right: 25px;
+    font-size: 25px;
 }
-#menu ul li a {
-    font-size: 14px;
-    color: #fff;
-    padding: 20px 10px; /* Reduzindo o padding horizontal */
-    font-weight: 800;
-    transition: 0.4s;
-}
-
-
 .icone {
 	width: 30px;
 	position: relative;
@@ -230,66 +227,4 @@ main form hr {
     color: #E3E3E3;
 }
 
-@media (max-width: 768px) {
-    body {
-        font-size: 18px;
-    }
 
-    #topo {
-        height: auto;
-        padding: 20px;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #topo #logo {
-        width: 300px;
-        height: auto;
-        margin: 0;
-    }
-
-    #topo form {
-        margin: 20px 0;
-        width: 80%;
-        max-width: 400px;
-    }
-
-    /* Ajuste de padding para dispositivos menores */
-    #menu ul li a {
-        padding: 15px 10px;
-    }
-
-    /* Ajuste de tamanho do ícone para dispositivos menores */
-    #menu ul li i {
-        font-size: 18px;
-    }
-
-    .containerColunas {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    
-	coluna1, .coluna2 {
-        float: none; /* Remova o float para permitir que as colunas empilhem verticalmente */
-        width: 100%; /* Largura total para ocupar a largura do contêiner */
-        margin: 0 0 15px 0; /* Adicione margem inferior para espaçamento entre as colunas */
-    }
-}
-
-    #caixa1, #caixa2 {
-        margin: 20px 0;
-        width: 90%;
-    }
-
-    #rodape figure {
-        width: 60px;
-        height: 45px;
-        margin-left: 0;
-    }
-
-    #rodape p {
-        margin-left: 10px;
-        font-size: 24px;
-    }
-}
